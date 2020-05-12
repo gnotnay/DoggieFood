@@ -49,11 +49,11 @@ function App() {
       <div id="products-info" data-testid="products-info">
         <div className="product" id="product1" data-testid="product1">
           <div data-testid="product1-img">
-            <img src="https://whatsmorestudio.com/Soymilk_Custard_Box_Cake.png" />
+            <img src="http://icode4.life/img/202005/product1.png" height="40%" width="100%"/>
           </div>
           <div className="product-description">
             <Typography variant="subtitle1" data-testid="product1-description">
-              Blue Buffalo Healthy Gourmet
+            RAW DIET RECIPE I
             </Typography>
           </div>
           <form>
@@ -83,11 +83,11 @@ function App() {
 
         <div className="product" id="product2" data-testid="product2">
           <div data-testid="product2-img">
-            <img src="https://whatsmorestudio.com/Soymilk_Custard_Box_Cake.png" />
+            <img src="http://icode4.life/img/202005/product2.png" height="40%" width="100%"/>
           </div>
           <div className="product-description">
             <Typography variant="subtitle1" data-testid="product2-description">
-              Blue Buffalo Healthy Gourmet
+              RAW DIET RECIPE II
             </Typography>
           </div>
           <form>
