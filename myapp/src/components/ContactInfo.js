@@ -1,26 +1,18 @@
-import React from 'react';
+import React from "react";
 import Typography from "@material-ui/core/Typography";
 
 const ContactInfo = () => {
   return (
     <div>
+      <Typography>RAWX</Typography>
+      <Typography>Julio's raw food</Typography>
       <Typography>
-      Cake Designing Studio
+        <a href="shiba.julio@gmail.com">shiba.julio@gmail.com</a>
       </Typography>
-      <Typography>
-        whaT's More Cake
-      </Typography>
-      <Typography>
-      <a href="info@whatsmorestudio.com">info@whatsmorestudio.com</a>
-      </Typography>
-      <Typography>
-        500 Lawrence Expy, Sunnyvale, CA 94085
-      </Typography>
-      <Typography>
-        © 2020 whaT's More Cake
-      </Typography>
+      <Typography>San Jose, CA</Typography>
+      <Typography>© 2020 RAWX</Typography>
     </div>
   );
-}
+};
 
 export default ContactInfo;
